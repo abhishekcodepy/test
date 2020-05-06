@@ -1,5 +1,6 @@
 n = int(input())
 student_marks = {}
+line = 0
 for _ in range(n):
     name, *line = input().split()
     scores = list(map(float, line))
